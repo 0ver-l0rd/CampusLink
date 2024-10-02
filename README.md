@@ -1,4 +1,4 @@
-# CampusLink
+# CampusLink.
 
 A comprehensive Student Management System built using modern technologies to manage students, teachers, classes, subjects, and more, providing an easy-to-use interface for administrators to oversee educational activities.
 
