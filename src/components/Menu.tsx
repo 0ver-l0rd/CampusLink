@@ -1,11 +1,12 @@
 import { currentUser } from "@clerk/nextjs/server";
 import Image from "next/image";
 import Link from "next/link";
+import counselorImage from './Images/counselor.png';
 
 const menuItems = [
   {
     title: "MENU",
-    items: [
+    items: [      
       {
         icon: "/home.png",
         label: "Home",
@@ -103,7 +104,12 @@ const menuItems = [
         href: "/list/Translator",
         visible: ["admin", "teacher", "student", "parent"],
       },
-      
+      {
+        icon: counselorImage,
+        label: "AI counselor",
+        href: "http://localhost:3002/sc",
+        visible: ["admin", "teacher", "student", "parent"],
+      },
     ],
   },
   {
