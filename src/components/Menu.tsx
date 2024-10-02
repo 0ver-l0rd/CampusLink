@@ -90,6 +90,13 @@ const menuItems = [
         href: "/list/announcements",
         visible: ["admin", "teacher", "student", "parent"],
       },
+      {
+        icon: "/result.png",
+        label: "AI Counselor",
+        href: "/Features/AI Counselor/CampusLink-0ver-l0rd-patch-2/src/app/sc/page.jsx",
+        visible: ["admin", "teacher", "student", "parent"],
+      },
+      
     ],
   },
   {
