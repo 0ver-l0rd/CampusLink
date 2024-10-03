@@ -107,7 +107,7 @@ const menuItems = [
       {
         icon: counselorImage,
         label: "AI counselor",
-        href: "http://localhost:3002/sc",
+        href: "http://localhost:3001/sc",
         visible: ["admin", "teacher", "student", "parent"],
       },
     ],
