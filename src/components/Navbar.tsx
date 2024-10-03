@@ -17,6 +17,12 @@ const Navbar = async () => {
       </div>
       {/* ICONS AND USER */}
       <div className="flex items-center gap-6 justify-end w-full">
+        <a href="https://campuslinkwebchat.netlify.app/">
+
+        <div className="bg-white rounded-full w-7 h-7 flex items-center justify-center cursor-pointer">
+          <Image src="/parent.png" alt="" width={20} height={20} />
+        </div>
+        </a>
         <a href="https://campuslinkchat.netlify.app/">
 
         <div className="bg-white rounded-full w-7 h-7 flex items-center justify-center cursor-pointer">
